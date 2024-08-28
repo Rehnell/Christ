@@ -225,7 +225,7 @@ h1 {
 
 .google_play_button  {
   height: 70px;
-  width: 200px;
+  width: 180px;
   margin-top: -1px;
   z-index: 10; 
   margin-left: 100px;
@@ -233,7 +233,7 @@ h1 {
 
 .app_store_button {
   height: 70px;
-  width: 200px;
+  width: 180px;
   z-index: 10; 
 }
 
