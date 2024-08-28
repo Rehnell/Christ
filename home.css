@@ -1,0 +1,361 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+/* Root */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  outline: none;
+  font-family: "Baskervville SC", serif;
+}
+
+
+/* Body */
+
+body {
+  font-family: "Baskervville SC", serif;
+  background-color: black;
+}
+
+
+/* Logo */
+
+.logo {
+  font-family: "Baskervville SC", serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  z-index: 4;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+/* Navigation */
+
+.header {
+  background-color: transparent;
+  height: 100px;
+  box-shadow: none;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: transparent;
+  font-family: "Baskervville SC", serif;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+  font-size: 1.3em;
+}
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid transparent;
+  text-decoration: none;
+  color: white;
+}
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: transparent;
+  color: bisque;
+}
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+
+/* Menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+
+/* Menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+.header .menu-icon .navicon {
+  background: #FFFF;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 36px;
+  margin-top: 20px;
+}
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #FFFF;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+
+/* Menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
+/* 48em = 768px */
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+@media (max-width: 798px) {
+  .header li {
+    float: none; /* Remove floating for vertical display */
+  }
+  .header li a {
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+  }
+  .header .menu {
+    clear: both; /* Clear floats for proper stacking */
+    float: none; /* Remove floating for vertical display */
+    max-height: 0; /* Initially hide the menu */
+  }
+  .header .menu-icon {
+    display: block; /* Show the menu icon */
+  }
+}
+
+
+  /* Section One */
+
+.box-one {
+  height: 900px;
+  max-width: 100%;
+}
+.section_one_pic {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  float: left;
+  margin-left: 0;
+  max-width: 100%;
+  height: auto;
+  top: 40px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+h1 {
+  font-family: "Dancing Script", serif;
+  font-size: 4em;
+  color: black;
+  margin-top: 100px;
+  margin-left: 100px;
+  z-index: 5;
+}
+
+.buttonbox {
+  margin-top: 300px;
+  margin-left: 300px;
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+.google_play_button  {
+  height: 70px;
+  width: 180px;
+  margin-top: -1px;
+  z-index: 10; 
+  margin-left: 100px;
+}
+
+.app_store_button {
+  height: 70px;
+  width: 180px;
+  z-index: 10; 
+}
+
+
+ /* Section Two */
+
+.box-two {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 800px;
+  background-color: white;
+
+}
+
+
+/* Section Three */
+
+.box-three {
+  max-width: 100%;
+  height: 800px;
+  background-color: rgb(255, 248, 239);
+}
+
+
+/* Footer */
+
+.footer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  color: white;
+  text-align: center;
+  position: fixed bottom;
+}
+.footertext {
+  margin-left: 40px;
+  margin-top: 20px;
+  font-family: "poppins";
+  font-size: 0.9em;
+  color: black;
+  text-align: center;
+}
+
+
+/* Keyframe Animations */
+
+@-webkit-keyframes gradbar {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+@-moz-keyframes gradbar {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+@keyframes gradbar {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+/* Media Queries */
+  /* Mobile Devices - Phones/Tablets */
+
+@media only screen and (max-width: 720px) { 
+  .features {
+    flex-direction: column;
+    padding: 50px;
+  }
+}
+
+
+    /* Mobile Navigation */
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        justify-content: start;
+        top: 55px;
+        background-color: #ffff;
+        width: 100%;
+        height: calc(100vh - 55px);
+        transform: translate(-101%);
+        text-align: center;
+        overflow: hidden;
+    }
+    .navbar li {
+      padding: 15px;
+    }
+    .navbar li:first-child {
+      margin-top: 50px;
+    }
+    .navbar li a {
+      font-size: 1rem;
+    }
+    .menu-toggle, .bar {
+      display: block;
+      cursor: pointer;
+    }
+    .mobile-nav {
+    transform: translate(0%)!important;
+  }
