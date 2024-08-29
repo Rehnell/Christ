@@ -340,7 +340,7 @@ h1 {
 }
 
 @media only screen and (max-width: 384px) {
-  .biblerrose {
+  .biblerose {
     overflow-x: hidden;
     width: 100%;
   }
