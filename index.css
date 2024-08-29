@@ -340,6 +340,13 @@ h1 {
 }
 
 @media only screen and (max-width: 384px) {
+  .biblerrose {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 384px) {
   .box-three {
     height: 300px;
     background-color: bisque;
