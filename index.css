@@ -328,6 +328,27 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 384px) { 
+  .google_play_button {
+    margin-top: 30px;
+    margin-left: 6px;
+
+  .box-one {
+    height: 500px;
+  }
+
+  .box-two {
+    height: 200px;
+    background-color: bisque;
+  }
+
+  .box-three {
+    height: 400px;
+    background-color: bisque;
+  }
+}
+
+
 
     /* Mobile Navigation */
     .navbar ul {
