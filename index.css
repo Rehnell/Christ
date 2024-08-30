@@ -244,6 +244,12 @@ body {
   background-color: rgb(255, 248, 239);
 }
 
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 3em;
+  font-weight: 400;
+}
+
 /* Footer */
 
 .footer {
