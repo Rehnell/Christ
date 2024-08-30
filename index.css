@@ -323,14 +323,12 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 384px) {
-  .box-three {
-    height: 300px;
-    background-color: bisque;
+.christpic {
+  width: 384px;
+  overflow-x: hidden;
   }
 }
-
 
 
     /* Mobile Navigation */
