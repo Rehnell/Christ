@@ -318,7 +318,7 @@ body {
 
 @media only screen and (max-width: 384px) {
   .box-two {
-    height: 200px;
+    height: 170px;
     background-color: black;
   }
 }
