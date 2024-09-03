@@ -298,7 +298,9 @@ body {
 
 /* Media Queries */
 
-  /* Desktops and Larger Screens */
+/* Desktops and Larger Screens */
+
+/* 1920px */
 
 @media only screen and (max-width: 1920px) {
   .header {
@@ -317,6 +319,21 @@ body {
     font-size: 2em;
   }
 }
+
+/* 1425px */
+
+@media only screen and (max-width: 1425px) {
+  .header .logo {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 1425px) {
+  .header ul {
+    font-size: 1.3em;
+  }
+}
+
 
 
   /* Mobile Devices - Phones/Tablets */
