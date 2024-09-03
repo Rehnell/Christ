@@ -320,20 +320,38 @@ body {
   }
 }
 
-/* 1425px */
+/* 1426px */
 
-@media only screen and (max-width: 1425px) {
+@media only screen and (max-width: 1426px) {
   .header .logo {
     font-size: 1.3em;
   }
 }
 
-@media only screen and (max-width: 1425px) {
+@media only screen and (max-width: 1426px) {
   .header ul {
     font-size: 1.3em;
   }
 }
 
+@media only screen and (max-width: 1426px) {
+  .google_play_button {
+    margin-top: 200px;
+    margin-left: 500px;
+  }
+}
+
+@media only screen and (max-width: 1426px) {
+  .box-two {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1426px) {
+  .christpic {
+    display: none;
+  }
+}
   /* Mobile Devices - Phones/Tablets */
 
 @media only screen and (max-width: 720px) { 
