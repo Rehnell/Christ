@@ -433,20 +433,20 @@ body {
 }
 
 @media only screen and (max-width: 384px) {
-.footer {
-  position: fixed bottom;
+  .footer {
+    position: fixed bottom;
   }
 }
 
 /* 360px */
 @media only screen and (max-width: 360px) {
-.logo {
-  font-size: 2.5em;
+  .logo {
+    font-size: 2.5em;
   {
 }
 
 @media only screen and (max-width: 360px) {
-.footer {
-  position: fixed bottom;
+  .footer {
+    position: fixed bottom;
   }
 }
