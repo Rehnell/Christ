@@ -453,6 +453,13 @@ body {
 }
 
 @media only screen and (max-width: 360px) {
+  .app_store_button {
+    height: 55px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
   .footer {
     position: fixed bottom;
   }
