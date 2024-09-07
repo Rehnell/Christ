@@ -1,5 +1,4 @@
 /* Google Fonts Import */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader:wght@200&display=swap');
@@ -33,7 +32,7 @@ body {
   font-family: "Baskervville SC", serif;
   font-size: 3em;
   font-weight: bold;
-  color: black;
+  color: white;
   z-index: 4;
   margin-top: 20px;
   margin-left: 20px;
@@ -58,25 +57,22 @@ body {
   background-color: transparent;
   font-family: "Baskervville SC", serif;
   font-weight: bold;
-  color: black;
+  color: white;
   padding-top: 20px;
   font-size: 1.3em;
 }
-
 .header li a {
   display: block;
   padding: 20px 20px;
   border-right: 1px solid transparent;
   text-decoration: none;
-  color: black;
+  color: white;
 }
-
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: transparent;
-  color: rgb(215, 163, 100);
+  color: bisque;
 }
-
 .header .logo {
   display: block;
   float: left;
@@ -106,7 +102,7 @@ body {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: black;
+  background: #FFFF;
   display: block;
   height: 2px;
   position: relative;
@@ -116,7 +112,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: black;
+  background: #FFFF;
   content: '';
   display: block;
   height: 100%;
@@ -193,9 +189,8 @@ body {
   /* Section One */
 
 .box-one {
-  height: 700px;
+  height: 900px;
   max-width: 100%;
-  background-color: white;
 }
 
 .section_one_pic {
@@ -211,6 +206,21 @@ body {
   left: 0;
   bottom: 0;
   z-index: -1;
+}
+
+
+.google_play_button  {
+  height: 70px;
+  width: 180px;
+  margin-top: -1px;
+  z-index: 10; 
+  margin-left: 100px;
+}
+
+.app_store_button {
+  height: 70px;
+  width: 180px;
+  z-index: 10; 
 }
 
 
@@ -232,12 +242,11 @@ body {
   height: 70px;
   width: 100%;
   display: flex;
-  background-color: black;
-  color: black;
+  background-color: white;
+  color: white;
   text-align: center;
-  position: absolute;
-  position: fixed bottom;
   bottom: 0;
+  position: absolute;
 
 }
 .footertext {
@@ -245,7 +254,7 @@ body {
   margin-top: 20px;
   font-family: "poppins";
   font-size: 0.9em;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -293,7 +302,7 @@ body {
         position: fixed;
         justify-content: start;
         top: 55px;
-        background-color: black;
+        background-color: #ffff;
         width: 100%;
         height: calc(100vh - 55px);
         transform: translate(-101%);
@@ -323,18 +332,6 @@ body {
 
 /* 1920px */
 
-@media screen and (max-width: 1920px) {
-  .christpic {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1920px) {
-  .box-two {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 1920px) {
   .header {
     height: 150px;
@@ -353,25 +350,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 1920px) {
-  .google_play_button {
-    position: relative;
-    margin-top: 200px;
-    margin-left: 500px;
-  }
-}
-
-@media only screen and (max-width: 1920px) {
-  .app_store_button {
-    position: relative;
-    margin-top: 200px;
-    margin-left: 500px;
-  }
-}
-
-@media only screen and (max-width: 1920px) {
-  .footer {
-    position: fixed bottom;
+@media screen and (max-width: 1920px) {
+  .christpic {
+    display: none;
   }
 }
 
@@ -391,15 +372,6 @@ body {
 
 @media only screen and (max-width: 1426px) {
   .google_play_button {
-    position: relative;
-    margin-top: 200px;
-    margin-left: 500px;
-  }
-}
-
-@media only screen and (max-width: 1426px) {
-  .app_store_button {
-    position: relative;
     margin-top: 200px;
     margin-left: 500px;
   }
@@ -411,17 +383,12 @@ body {
   }
 }
 
-@media screen and (max-width: 1426px) {
+@media only screen and (max-width: 1426px) {
   .christpic {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1426px) {
-  .footer {
-    bottom: 0;
-  }
-}
 
 /* Mobile Devices - Phones/Tablets */
 
@@ -466,7 +433,34 @@ body {
 }
 
 @media only screen and (max-width: 384px) {
-.footer {
-  position: fixed bottom;
+  .footer {
+    position: fixed bottom;
+  }
+}
+
+/* 360px */
+@media only screen and (max-width: 360px) {
+  .logo {
+    font-size: 2em;
+  {
+}
+
+@media only screen and (max-width: 360px) {
+  .google_play_button {
+    height: 55px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .app_store_button {
+    height: 55px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .footer {
+    position: fixed bottom;
   }
 }
