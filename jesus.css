@@ -32,7 +32,7 @@ body {
   font-family: "Baskervville SC", serif;
   font-size: 3em;
   font-weight: bold;
-  color: black;
+  color: bisque;
   z-index: 4;
   margin-top: 20px;
   margin-left: 20px;
@@ -66,12 +66,12 @@ body {
   padding: 20px 20px;
   border-right: 1px solid transparent;
   text-decoration: none;
-  color: black;
+  color: bisque;
 }
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: transparent;
-  color: grey;
+  color: white;
 }
 .header .logo {
   display: block;
@@ -102,7 +102,7 @@ body {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: black;
+  background: bisque;
   display: block;
   height: 2px;
   position: relative;
@@ -112,7 +112,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: black;
+  background: bisque;
   content: '';
   display: block;
   height: 100%;
