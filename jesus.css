@@ -197,12 +197,12 @@ body {
 
 h1 {
   position: relative;
-  font-family: "Dela Gothic One", sans-serif;
-  font-weight: 400;
+  font-family: "poppins";
+  font-weight: bold;
   font-style: normal;
-  font-size: 5em;
+  font-size: 1em;
   color: white;
-  padding-left: 60px;
+  padding-left: 20px;
   padding-top: 100px;
   z-index: 5;
 }
