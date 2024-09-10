@@ -434,7 +434,7 @@ h1 {
 }
 
 /* 360px */
-@media only screen and (max-width: 384px) {
+@media only screen and (max-width: 360px) {
   .header .logo {
     font-size: 1.8em;
   }
