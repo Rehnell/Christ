@@ -200,6 +200,7 @@ h1 {
   color: white;
   margin-top: 80px;
   margin-left: 20px;
+  z-index: 5;
 }
 
 
