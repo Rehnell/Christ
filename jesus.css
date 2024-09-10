@@ -388,7 +388,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .box-one {
-    height: 500px;
+    height: 1500px;
   }
 }
 
@@ -400,12 +400,6 @@ h1 {
     margin-top: 80px;
     margin-left: 38px;
     z-index: 5;
-  }
-}
-
-@media only screen and (max-width: 384px) {
-  .box-one {
-    height: 1500px;
   }
 }
 
