@@ -65,6 +65,7 @@ body {
   display: block;
   padding: 20px 20px;
   border-right: 1px solid transparent;
+  font-family: "Baskervville SC", serif;
   text-decoration: none;
   color: bisque;
 }
