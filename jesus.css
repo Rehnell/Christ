@@ -193,34 +193,11 @@ body {
   max-width: 100%;
 }
 
-.section_one_pic {
-  position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  float: left;
-  margin-left: 0;
-  max-width: 100%;
-  height: auto;
-  top: 40px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-}
 
-
-.google_play_button  {
-  height: 70px;
-  width: 180px;
-  margin-top: -1px;
-  z-index: 10; 
-  margin-left: 100px;
-}
-
-.app_store_button {
-  height: 70px;
-  width: 180px;
-  z-index: 10; 
+h1 {
+  font-family: "poppins";
+  font-weight: bold;
+  color: white;
 }
 
 
