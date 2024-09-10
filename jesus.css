@@ -409,6 +409,8 @@ h1 {
     font-weight: normal;
     color: white;
     padding-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
     z-index: 5;
   }
 }
