@@ -112,7 +112,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #FFFF;
+  background: bisque;
   content: '';
   display: block;
   height: 100%;
