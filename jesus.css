@@ -403,6 +403,18 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 384px) {
+  .sentence_one {
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    padding-top: 10px;
+    z-index: 5;
+  }
+}
+
+
+
 
 @media only screen and (max-width: 384px) {
   .box-two {
