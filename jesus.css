@@ -386,13 +386,6 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 384px) { 
-  .google_play_button {
-    margin-top: 30px;
-    margin-left: 6px;
-  }
-}
-
 @media only screen and (max-width: 384px) {
   .box-one {
     height: 500px;
@@ -400,16 +393,21 @@ h1 {
 }
 
 @media only screen and (max-width: 384px) {
-  .box-two {
-    height: 170px;
-    background-color: black;
+  h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    margin-top: 80px;
+    margin-left: 40px;
+    z-index: 5;
   }
 }
 
+
 @media only screen and (max-width: 384px) {
-.christpic {
-  width: 384px;
-  overflow-x: hidden;
+  .box-two {
+    height: 170px;
+    background-color: black;
   }
 }
 
