@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 /* Root */
 
@@ -22,7 +21,7 @@
 /* Body */
 
 body {
-  font-family: "poppins";
+  font-family: "Baskervville SC", serif;
   background-color: black;
 }
 
@@ -33,7 +32,7 @@ body {
   font-family: "Baskervville SC", serif;
   font-size: 3em;
   font-weight: bold;
-  color: bisque;
+  color: white;
   z-index: 4;
   margin-top: 20px;
   margin-left: 20px;
@@ -43,7 +42,7 @@ body {
 /* Navigation */
 
 .header {
-  background-color: black;
+  background-color: transparent;
   height: 100px;
   box-shadow: none;
   position: absolute;
@@ -58,7 +57,7 @@ body {
   background-color: transparent;
   font-family: "Baskervville SC", serif;
   font-weight: bold;
-  color: black;
+  color: white;
   padding-top: 20px;
   font-size: 1em;
 }
@@ -67,12 +66,12 @@ body {
   padding: 20px 20px;
   border-right: 1px solid transparent;
   text-decoration: none;
-  color: bisque;
+  color: white;
 }
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: transparent;
-  color: white;
+  color: bisque;
 }
 .header .logo {
   display: block;
@@ -103,7 +102,7 @@ body {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: bisque;
+  background: #FFFF;
   display: block;
   height: 2px;
   position: relative;
@@ -113,7 +112,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: bisque;
+  background: #FFFF;
   content: '';
   display: block;
   height: 100%;
@@ -192,28 +191,38 @@ body {
 .box-one {
   height: 900px;
   max-width: 100%;
-  background-color: black;
 }
 
-h1 {
+.section_one_pic {
   position: relative;
-  font-family: "poppins";
-  font-weight: bold;
-  font-style: normal;
-  font-size: 1em;
-  color: white;
-  padding-left: 30px;
-  padding-top: 100px;
-  z-index: 5;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  float: left;
+  margin-left: 0;
+  max-width: 100%;
+  height: auto;
+  top: 40px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
-.sentence_one {
-  position: relative;
-  font-family: "poppins"; 
-  font-style: normal;
-  padding-left: 30px;
-  padding-top: 120px;
-  z-index: 5;
+
+.google_play_button  {
+  height: 70px;
+  width: 180px;
+  margin-top: -1px;
+  z-index: 10; 
+  margin-left: 100px;
+}
+
+.app_store_button {
+  height: 70px;
+  width: 180px;
+  z-index: 10; 
+}
+
 
  /* Section Two */
 
@@ -222,8 +231,8 @@ h1 {
   display: flex;
   justify-content: center;
   max-width: 100%;
-  height: 900px;
-  background-color: grey;
+  height: 800px;
+  background-color: white;
 
 }
 
