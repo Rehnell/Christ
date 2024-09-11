@@ -485,6 +485,31 @@ h1 {
   .sentence_four {
     font-size: 1em;
     font-weight: normal;
+    color: white;
+    padding-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .heading_five {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+
+@media only screen and (max-width: 384px) {
+  .sentence_five {
+    font-size: 1em;
+    font-weight: normal;
     color: bisque;
     padding-top: 10px;
     margin-left: 38px;
@@ -492,6 +517,7 @@ h1 {
     z-index: 5;
   }
 }
+
 
 @media only screen and (max-width: 384px) {
   .box-two {
