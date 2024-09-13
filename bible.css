@@ -193,36 +193,6 @@ body {
   max-width: 100%;
 }
 
-.section_one_pic {
-  position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  float: left;
-  margin-left: 0;
-  max-width: 100%;
-  height: auto;
-  top: 40px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-
-.google_play_button  {
-  height: 70px;
-  width: 180px;
-  margin-top: -1px;
-  z-index: 10; 
-  margin-left: 100px;
-}
-
-.app_store_button {
-  height: 70px;
-  width: 180px;
-  z-index: 10; 
-}
-
 
  /* Section Two */
 
@@ -428,6 +398,18 @@ body {
   }
 }
 
+
+@media only screen and (max-width: 384px) {
+  .sentence_one {
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    padding-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
 
 
 @media only screen and (max-width: 384px) {
