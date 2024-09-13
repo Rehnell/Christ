@@ -399,24 +399,35 @@ body {
   }
 }
 
+
+/* 384 PX * - mobile/
+
 @media only screen and (max-width: 384px) {
   .header .logo {
     font-size: 2em;
   }
 }
 
-@media only screen and (max-width: 384px) { 
-  .google_play_button {
-    margin-top: 30px;
-    margin-left: 6px;
-  }
-}
 
 @media only screen and (max-width: 384px) {
   .box-one {
     height: 500px;
   }
 }
+
+
+@media only screen and (max-width: 384px) {
+  h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    margin-top: 80px;
+    margin-left: 38px;
+    z-index: 5;
+  }
+}
+
+
 
 @media only screen and (max-width: 384px) {
   .box-two {
