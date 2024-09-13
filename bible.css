@@ -401,6 +401,7 @@ body {
 
 @media only screen and (max-width: 384px) {
   .sentence_one {
+    font-family: "poppins";
     font-size: 1em;
     font-weight: normal;
     color: white;
