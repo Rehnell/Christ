@@ -400,7 +400,7 @@ body {
 }
 
 
-/* 384 PX * - mobile/
+/* 384 PX - mobile */
 
 @media only screen and (max-width: 384px) {
   .header .logo {
@@ -449,7 +449,8 @@ body {
   }
 }
 
-/* 360px */
+/* 360px - mobile */
+
 @media only screen and (max-width: 360px) {
   .logo {
     font-size: 2em;
