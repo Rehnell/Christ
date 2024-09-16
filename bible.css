@@ -226,6 +226,7 @@ body {
   font-size: 0.9em;
   color: black;
   text-align: center;
+  z-index: 5;
 }
 
 
