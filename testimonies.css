@@ -411,15 +411,6 @@ body {
 }
 
 @media only screen and (max-width: 384px) {
-  .mepic {
-    height: 300px;
-    width: 270px;
-    margin-top: 600px;
-    z-index: 5;
-  }
-}
-
-@media only screen and (max-width: 384px) {
   h1 {
     font-size: 1.3em;
     font-weight: bold;
