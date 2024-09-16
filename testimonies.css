@@ -420,6 +420,18 @@ body {
 }
 
 @media only screen and (max-width: 384px) {
+  h1 {
+    font-family: "poppins";
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    margin-top: 200px;
+    margin-left: 38px;
+    z-index: 5;
+  }
+}
+
+@media only screen and (max-width: 384px) {
   .heading_two {
     font-family: "poppins";
     font-size: 1.3em;
