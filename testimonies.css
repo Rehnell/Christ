@@ -379,13 +379,11 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 384px) {
   .box-one {
     height: 500px;
   }
 }
-
 
 @media only screen and (max-width: 384px) {
   h1 {
@@ -398,7 +396,6 @@ body {
     z-index: 5;
   }
 }
-
 
 @media only screen and (max-width: 384px) {
   .sentence_one {
@@ -415,8 +412,8 @@ body {
 
 @media only screen and (max-width: 384px) {
   .mepic {
-    height: 100px;
-    width: 150px;
+    height: 400px;
+    width: 350px;
     z-index: 5;
   }
 }
@@ -434,7 +431,6 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 384px) {
   .sentence_two {
     font-size: 1em;
@@ -447,19 +443,10 @@ body {
   }
 }
 
-
-
 @media only screen and (max-width: 384px) {
   .box-two {
     height: 170px;
     background-color: black;
-  }
-}
-
-@media only screen and (max-width: 384px) {
-.christpic {
-  width: 384px;
-  overflow-x: hidden;
   }
 }
 
@@ -470,7 +457,6 @@ body {
   }
 }
 
-
 /* 360px - mobile */
 
 @media only screen and (max-width: 360px) {
@@ -479,19 +465,7 @@ body {
   {
 }
 
-@media only screen and (max-width: 360px) {
-  .google_play_button {
-    height: 55px;
-    width: 150px;
-  }
-}
 
-@media only screen and (max-width: 360px) {
-  .app_store_button {
-    height: 55px;
-    width: 150px;
-  }
-}
 
 @media only screen and (max-width: 360px) {
   .footer {
