@@ -217,8 +217,9 @@ body {
   text-align: center;
   bottom: 0;
   position: absolute;
-
+  z-index: 5; 
 }
+
 .footertext {
   margin-left: 40px;
   margin-top: 20px;
