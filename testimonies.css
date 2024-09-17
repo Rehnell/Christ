@@ -14,7 +14,7 @@
   text-decoration: none;
   scroll-behavior: smooth;
   outline: none;
-  font-family: "Baskervville SC", serif;
+  font-family: "poppins";
 }
 
 
@@ -22,7 +22,7 @@
 
 body {
   font-family: "Baskervville SC", serif;
-  background-color: white;
+  background-color: black;
 }
 
 
@@ -32,7 +32,7 @@ body {
   font-family: "Baskervville SC", serif;
   font-size: 3em;
   font-weight: bold;
-  color: black;
+  color: bisque;
   z-index: 4;
   margin-top: 20px;
   margin-left: 20px;
@@ -57,7 +57,7 @@ body {
   background-color: transparent;
   font-family: "Baskervville SC", serif;
   font-weight: bold;
-  color: black;
+  color: bisque;
   padding-top: 20px;
   font-size: 1em;
 }
@@ -65,13 +65,14 @@ body {
   display: block;
   padding: 20px 20px;
   border-right: 1px solid transparent;
+  font-family: "Baskervville SC", serif;
   text-decoration: none;
-  color: black;
+  color: bisque;
 }
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: transparent;
-  color: #A9A9A9;
+  color: white;
 }
 .header .logo {
   display: block;
@@ -102,7 +103,7 @@ body {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: black;
+  background: bisque;
   display: block;
   height: 2px;
   position: relative;
@@ -112,7 +113,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: black;
+  background: bisque;
   content: '';
   display: block;
   height: 100%;
@@ -194,6 +195,17 @@ body {
 }
 
 
+h1 {
+  font-family: "poppins";
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  margin-top: 80px;
+  margin-left: 40px;
+  z-index: 5;
+}
+
+
  /* Section Two */
 
 .box-two {
@@ -212,11 +224,12 @@ body {
   height: 70px;
   width: 100%;
   display: flex;
-  background-color: black;
+  background-color: bisque;
+  color: white;
   text-align: center;
   bottom: 0;
-  position: absolute;
-  z-index: 5; 
+  position: fixed;
+  z-index: 5;
 }
 
 .footertext {
@@ -224,7 +237,7 @@ body {
   margin-top: 20px;
   font-family: "poppins";
   font-size: 0.9em;
-  color: white;
+  color: black;
   text-align: center;
   z-index: 5;
 }
@@ -370,9 +383,6 @@ body {
   }
 }
 
-
-/* 384 PX - mobile */
-
 @media only screen and (max-width: 384px) {
   .header .logo {
     font-size: 2em;
@@ -381,13 +391,12 @@ body {
 
 @media only screen and (max-width: 384px) {
   .box-one {
-    height: 500px;
+    height: 5800px;
   }
 }
 
 @media only screen and (max-width: 384px) {
   h1 {
-    font-family: "poppins";
     font-size: 1.3em;
     font-weight: bold;
     color: white;
@@ -399,10 +408,9 @@ body {
 
 @media only screen and (max-width: 384px) {
   .sentence_one {
-    font-family: "poppins";
     font-size: 1em;
     font-weight: normal;
-    color: black;
+    color: white;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
@@ -411,20 +419,7 @@ body {
 }
 
 @media only screen and (max-width: 384px) {
-  h1 {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: black;
-    margin-top: 80px;
-    margin-left: 38px;
-    z-index: 5;
-  }
-}
-
-
-@media only screen and (max-width: 384px) {
   .heading_two {
-    font-family: "poppins";
     font-size: 1.3em;
     font-weight: bold;
     color: white;
@@ -447,6 +442,83 @@ body {
   }
 }
 
+
+@media only screen and (max-width: 384px) {
+  .heading_three {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+
+@media only screen and (max-width: 384px) {
+  .sentence_three {
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    padding-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+
+@media only screen and (max-width: 384px) {
+  .heading_four {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+   }
+ }
+
+@media only screen and (max-width: 384px) {
+  .sentence_four {
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    padding-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .heading_five {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+
+@media only screen and (max-width: 384px) {
+  .sentence_five {
+    font-size: 1em;
+    font-weight: normal;
+    color: bisque;
+    padding-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+
 @media only screen and (max-width: 384px) {
   .box-two {
     height: 170px;
@@ -461,19 +533,16 @@ body {
   }
 }
 
-/* 360px - mobile */
-
+/* 360px */
 @media only screen and (max-width: 360px) {
-  .logo {
-    font-size: 2em;
-  {
+  .header .logo {
+    font-size: 1.7em;
+  }
 }
-
-
+  
 
 @media only screen and (max-width: 360px) {
   .footer {
-    position: fixed;
-    bottom: 0;
+    position: fixed bottom;
   }
 }
