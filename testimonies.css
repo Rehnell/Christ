@@ -419,6 +419,15 @@ h1 {
 }
 
 @media only screen and (max-width: 384px) {
+  .mepic {
+    height: 250px;
+    weight: 200px; 
+  }
+}
+
+
+
+@media only screen and (max-width: 384px) {
   .heading_two {
     font-size: 1.3em;
     font-weight: bold;
