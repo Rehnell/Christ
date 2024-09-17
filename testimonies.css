@@ -22,7 +22,7 @@
 
 body {
   font-family: "Baskervville SC", serif;
-  background-color: black;
+  background-color: white;
 }
 
 
@@ -32,7 +32,7 @@ body {
   font-family: "Baskervville SC", serif;
   font-size: 3em;
   font-weight: bold;
-  color: bisque;
+  color: black;
   z-index: 4;
   margin-top: 20px;
   margin-left: 20px;
@@ -57,7 +57,7 @@ body {
   background-color: transparent;
   font-family: "Baskervville SC", serif;
   font-weight: bold;
-  color: bisque;
+  color: black;
   padding-top: 20px;
   font-size: 1em;
 }
@@ -67,12 +67,12 @@ body {
   border-right: 1px solid transparent;
   font-family: "Baskervville SC", serif;
   text-decoration: none;
-  color: bisque;
+  color: black;
 }
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: transparent;
-  color: white;
+  color: dark grey;
 }
 .header .logo {
   display: block;
@@ -103,7 +103,7 @@ body {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: bisque;
+  background: black;
   display: block;
   height: 2px;
   position: relative;
@@ -113,7 +113,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: bisque;
+  background: black;
   content: '';
   display: block;
   height: 100%;
@@ -199,7 +199,7 @@ h1 {
   font-family: "poppins";
   font-size: 1.3em;
   font-weight: bold;
-  color: white;
+  color: black;
   margin-top: 80px;
   margin-left: 40px;
   z-index: 5;
@@ -225,7 +225,7 @@ h1 {
   width: 100%;
   display: flex;
   background-color: bisque;
-  color: white;
+  color: black;
   text-align: center;
   bottom: 0;
   position: fixed;
@@ -237,7 +237,7 @@ h1 {
   margin-top: 20px;
   font-family: "poppins";
   font-size: 0.9em;
-  color: black;
+  color: white;
   text-align: center;
   z-index: 5;
 }
@@ -286,7 +286,7 @@ h1 {
         position: fixed;
         justify-content: start;
         top: 55px;
-        background-color: #ffff;
+        background-color: black;
         width: 100%;
         height: calc(100vh - 55px);
         transform: translate(-101%);
@@ -399,7 +399,7 @@ h1 {
   h1 {
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: black;
     margin-top: 80px;
     margin-left: 38px;
     z-index: 5;
@@ -410,7 +410,7 @@ h1 {
   .sentence_one {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
