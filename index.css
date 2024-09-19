@@ -460,6 +460,42 @@ body {
   }
 }
 
+@media only screen and (max-width: 360px) { 
+  .google_play_button {
+    margin-top: 30px;
+    margin-left: 6px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .box-one {
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .box-two {
+    height: 270px;
+    background-color: black;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 360px) {
   .footer {
     position: fixed bottom;
