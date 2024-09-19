@@ -439,12 +439,11 @@ body {
 }
 
 /* 360px */
-@media only screen and (max-width: 360px) {
+@@media only screen and (max-width: 360px) {
   .logo {
     font-size: 1.7em;
   }
 }
-
 
 @media only screen and (max-width: 360px) {
   .google_play_button {
@@ -479,22 +478,6 @@ body {
     background-color: black;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 360px) {
   .footer {
