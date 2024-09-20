@@ -440,9 +440,18 @@ body {
 }
 
 /* 360px - Mobile */
+
 @media only screen and (max-width: 360px) {
   .header .logo {
     font-size: 1.5em;
+  }
+}
+
+
+@media only screen and (max-width: 360px) {
+  .header .menu-icon .navicon {
+    margin-top: 20px;
+    margin-left: 100px;
   }
 }
 
