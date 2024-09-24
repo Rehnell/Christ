@@ -22,7 +22,7 @@
 
 body {
   font-family: "Baskervville SC", serif;
-  background-color: black;
+  background-color: white;
 }
 
 
@@ -32,7 +32,7 @@ body {
   font-family: "Baskervville SC", serif;
   font-size: 3em;
   font-weight: bold;
-  color: white;
+  color: black;
   z-index: 4;
   margin-top: 20px;
   margin-left: 20px;
@@ -68,7 +68,7 @@ body {
   padding: 20px 20px;
   border-right: 1px solid transparent;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .header li a:hover,
@@ -107,7 +107,7 @@ body {
 }
 
 .header .menu-icon .navicon {
-  background: #FFFF;
+  background: black;
   display: block;
   height: 2px;
   position: relative;
@@ -118,7 +118,7 @@ body {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #FFFF;
+  background: black;
   content: '';
   display: block;
   height: 100%;
@@ -419,7 +419,7 @@ body {
     font-family: "poppins";
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
@@ -433,7 +433,7 @@ body {
     font-family: "poppins";
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: black;
     padding-top: 40px;
     margin-left: 38px;
     padding-right: 20px;
@@ -446,7 +446,7 @@ body {
   .sentence_two {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
