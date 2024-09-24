@@ -225,7 +225,7 @@ body {
   height: 70px;
   width: 100%;
   display: flex;
-  background-color: white;
+  background-color: black;
   color: white;
   text-align: center;
   bottom: 0;
@@ -238,7 +238,7 @@ body {
   margin-top: 20px;
   font-family: "poppins";
   font-size: 0.9em;
-  color: black;
+  color: white;
   text-align: center;
   z-index: 5;
 }
