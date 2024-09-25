@@ -523,7 +523,6 @@ h1 {
   .box-two {
     height: 2000px;
     background-color: white;
-    z-index: 5;
   }
 }
 
