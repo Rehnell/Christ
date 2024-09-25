@@ -522,7 +522,7 @@ h1 {
 @media only screen and (max-width: 384px) {
   .box-two {
     height: 2000px;
-    background-color: black;
+    background-color: white;
   }
 }
 
