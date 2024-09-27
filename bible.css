@@ -471,12 +471,11 @@ body {
 }
 
 @media only screen and (max-width: 384px) {
-  .footer {
-    position: fixed;
+  .footer { 
+    position: relative;
     bottom: 0;
   }
 }
-
 
 /* 360px - mobile */
 
