@@ -225,7 +225,7 @@ h1 {
   color: white;
   text-align: center;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   z-index: 5;
 }
    
