@@ -392,7 +392,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .box-one {
-    height: 3500px;
+    height: 3600px;
     background-color: black;
   }
 }
