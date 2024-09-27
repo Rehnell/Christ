@@ -225,7 +225,7 @@ body {
 .footer {
   height: 70px;
   width: 100%;
-  display: flex;
+  display: block;
   background-color: white;
   text-align: center;
   bottom: 0;
