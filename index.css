@@ -71,7 +71,7 @@ body {
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: transparent;
-  color: bisque;
+  color: white;
 }
 .header .logo {
   display: block;
@@ -112,7 +112,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: bisque;
+  background: white;
   content: '';
   display: block;
   height: 100%;
