@@ -103,7 +103,7 @@ body {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: bisque;
+  background: white;
   display: block;
   height: 2px;
   position: relative;
