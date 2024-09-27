@@ -530,6 +530,8 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .footer { 
+    display: flex;
+    margin-bottom: auto;
     position: absolute;
     bottom: 0;
   }
