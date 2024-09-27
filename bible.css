@@ -107,7 +107,7 @@ body {
 }
 
 .header .menu-icon .navicon {
-  background: black;
+  background: white;
   display: block;
   height: 2px;
   position: relative;
@@ -118,7 +118,7 @@ body {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: black;
+  background: white;
   content: '';
   display: block;
   height: 100%;
