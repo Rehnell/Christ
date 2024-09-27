@@ -113,7 +113,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: NavajoWhite;
+  background: white;
   content: '';
   display: block;
   height: 100%;
