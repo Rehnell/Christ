@@ -22,7 +22,7 @@
 
 body {
   font-family: "Baskervville SC", serif;
-  background-color: white;
+  background-color: transparent;
 }
 
 
@@ -42,7 +42,7 @@ body {
 /* Navigation */
 
 .header {
-  background-color: transparent;
+  background-color: black;
   height: 100px;
   box-shadow: none;
   position: absolute;
@@ -204,6 +204,7 @@ body {
 .box-one {
   height: 900px;
   max-width: 100%;
+  background-color: black;
 }
 
 
