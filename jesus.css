@@ -57,7 +57,7 @@ body {
   background-color: transparent;
   font-family: "Baskervville SC", serif;
   font-weight: bold;
-  color: bisque;
+  color: NavajoWhite;
   padding-top: 20px;
   font-size: 1em;
 }
@@ -67,7 +67,7 @@ body {
   border-right: 1px solid transparent;
   font-family: "Baskervville SC", serif;
   text-decoration: none;
-  color: bisque;
+  color: NavajoWhite;
 }
 .header li a:hover,
 .header .menu-btn:hover {
@@ -113,7 +113,7 @@ body {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: bisque;
+  background: NavajoWhite;
   content: '';
   display: block;
   height: 100%;
