@@ -225,9 +225,10 @@ h1 {
   color: white;
   text-align: center;
   bottom: 0;
-  position: fixed;
+  position: absolute;
   z-index: 5;
 }
+   
 
 .footertext {
   margin-left: 40px;
@@ -530,6 +531,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .footer { 
+    position: absolute;
     bottom: 0;
   }
 }
