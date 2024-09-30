@@ -386,6 +386,7 @@ h1 {
 @media only screen and (max-width: 384px) {
   .header .logo {
     font-size: 2em;
+    color: black;
   }
 }
 
