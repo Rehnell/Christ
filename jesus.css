@@ -524,7 +524,7 @@ h1 {
 @media only screen and (max-width: 384px) {
   .box-two {
     display: block;
-    height: 3800px;
+    height: 4500px;
     background-color: white;
   }
 }
