@@ -518,6 +518,18 @@ h1 {
 
 
 @media only screen and (max-width: 384px) {
+  .sentence_five {
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    padding-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+@media only screen and (max-width: 384px) {
   .heading_six {
     font-size: 1.3em;
     font-weight: bold;
@@ -531,7 +543,7 @@ h1 {
 
 
 @media only screen and (max-width: 384px) {
-  .sentence_five {
+  .sentence_six {
     font-size: 1em;
     font-weight: normal;
     color: white;
@@ -543,11 +555,11 @@ h1 {
 }
 
 @media only screen and (max-width: 384px) {
-  .sentence_six {
-    font-size: 1em;
-    font-weight: normal;
+  .heading_seven {
+    font-size: 1.3em;
+    font-weight: bold;
     color: white;
-    padding-top: 10px;
+    padding-top: 40px;
     margin-left: 38px;
     padding-right: 20px;
     z-index: 5;
