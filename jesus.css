@@ -522,6 +522,31 @@ h1 {
 
 
 @media only screen and (max-width: 384px) {
+  .heading_six {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+   }
+ }
+
+
+@media only screen and (max-width: 384px) {
+  .heading_seven {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+   }
+ }
+
+@media only screen and (max-width: 384px) {
   .box-two {
     display: block;
     height: 5000px;
