@@ -399,6 +399,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   h1 {
+    font-family: "poppins";
     font-size: 1.3em;
     font-weight: bold;
     color: white;
@@ -410,6 +411,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .sentence_one {
+    font-family: "poppins";
     font-size: 1em;
     font-weight: normal;
     color: white;
@@ -422,6 +424,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .heading_two {
+    font-family: "poppins";
     font-size: 1.3em;
     font-weight: bold;
     color: white;
@@ -434,6 +437,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .sentence_two {
+    font-family: "poppins";
     font-size: 1em;
     font-weight: normal;
     color: white;
@@ -447,6 +451,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .heading_three {
+    font-family: "poppins";
     font-size: 1.3em;
     font-weight: bold;
     color: white;
@@ -460,6 +465,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .sentence_three {
+    font-family: "poppins";
     font-size: 1em;
     font-weight: normal;
     color: white;
@@ -473,6 +479,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .heading_four {
+    font-family: "poppins";
     font-size: 1.3em;
     font-weight: bold;
     color: white;
@@ -485,6 +492,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .sentence_four {
+    font-family: "poppins";
     font-size: 1em;
     font-weight: normal;
     color: white;
@@ -497,6 +505,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .heading_five {
+    font-family: "poppins";
     font-size: 1.3em;
     font-weight: bold;
     color: black;
@@ -510,6 +519,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .sentence_five {
+    font-family: "poppins";
     font-size: 1em;
     font-weight: normal;
     color: Maroon;
