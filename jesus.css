@@ -498,8 +498,8 @@ h1 {
 @media only screen and (max-width: 384px) {
   .heading_five {
     font-size: 1.3em;
-    font-weight: normal;
-    color: white;
+    font-weight: bold;
+    color: black;
     padding-top: 40px;
     margin-left: 38px;
     padding-right: 20px;
@@ -510,10 +510,10 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .sentence_five {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: white;
-    padding-top: 40px;
+    font-size: 1em;
+    font-weight: normal;
+    color: Maroon;
+    padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
     z-index: 5;
@@ -521,30 +521,6 @@ h1 {
 }
 
 
-@media only screen and (max-width: 384px) {
-  .heading_six {
-    font-size: 1.3em;
-    font-weight: normal;
-    color: Maroon;
-    padding-top: 10px;
-    margin-left: 38px;
-    padding-right: 20px;
-    z-index: 5;
-   }
- }
-
-
-@media only screen and (max-width: 384px) {
-  .heading_seven {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: white;
-    padding-top: 40px;
-    margin-left: 38px;
-    padding-right: 20px;
-    z-index: 5;
-   }
- }
 
 @media only screen and (max-width: 384px) {
   .box-two {
@@ -560,6 +536,7 @@ h1 {
     bottom: 0;
   }
 }
+
 
 /* 360px */
 @media only screen and (max-width: 360px) {
