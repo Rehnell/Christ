@@ -468,6 +468,19 @@ body {
   }
 }
 
+@media only screen and (max-width: 384px) {
+  .sentence_three {
+    font-family: 'poppins';
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    padding-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
 
 @media only screen and (max-width: 384px) {
   .box-two {
