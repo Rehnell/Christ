@@ -415,6 +415,20 @@ body {
 
 
 @media only screen and (max-width: 384px) {
+  .heading_one {
+    font-family: "poppins";
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    margin-left: 38px;
+    padding-right: 20px;
+    z-index: 5;
+  }
+}
+
+
+@media only screen and (max-width: 384px) {
   .sentence_one {
     font-family: "poppins";
     font-size: 1em;
