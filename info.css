@@ -213,7 +213,7 @@ h1 {
   display: flex;
   justify-content: center;
   max-width: 100%;
-  height: 800px;
+  height: 2000px;
   background-color: white;
 
 }
@@ -582,7 +582,7 @@ h1 {
 
 @media only screen and (max-width: 384px) {
   .box-two {
-    height: 170px;
+    height: 2000px;
     background-color: white;
   }
 }
