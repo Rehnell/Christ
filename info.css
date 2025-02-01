@@ -399,7 +399,7 @@ h1 {
   h1 {
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: black;
     margin-top: 80px;
     margin-left: 38px;
     z-index: 5;
@@ -410,7 +410,7 @@ h1 {
   .sentence_one {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
@@ -433,7 +433,7 @@ h1 {
   .heading_two {
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: black;
     padding-top: 40px;
     margin-left: 38px;
     padding-right: 20px;
@@ -445,7 +445,7 @@ h1 {
   .sentence_two {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
@@ -458,7 +458,7 @@ h1 {
   .heading_three {
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: black;
     padding-top: 40px;
     margin-left: 38px;
     padding-right: 20px;
@@ -471,7 +471,7 @@ h1 {
   .sentence_three {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
@@ -496,7 +496,7 @@ h1 {
   .sentence_four {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
@@ -508,7 +508,7 @@ h1 {
   .heading_five {
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: black;
     padding-top: 40px;
     margin-left: 38px;
     padding-right: 20px;
@@ -521,7 +521,7 @@ h1 {
   .sentence_five {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
@@ -533,7 +533,7 @@ h1 {
   .heading_six {
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: black;
     padding-top: 40px;
     margin-left: 38px;
     padding-right: 20px;
@@ -546,7 +546,7 @@ h1 {
   .sentence_six {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
@@ -558,7 +558,7 @@ h1 {
   .heading_seven {
     font-size: 1.3em;
     font-weight: bold;
-    color: white;
+    color: black;
     padding-top: 40px;
     margin-left: 38px;
     padding-right: 20px;
@@ -571,7 +571,7 @@ h1 {
   .sentence_seven {
     font-size: 1em;
     font-weight: normal;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-left: 38px;
     padding-right: 20px;
